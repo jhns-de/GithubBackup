@@ -8,4 +8,4 @@ WORKDIR /root
 
 ADD ./backup.py /root/backup.py
 
-ENTRYPOINT python /root/backup.py
+ENTRYPOINT python -u /root/backup.py
